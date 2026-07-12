@@ -58,6 +58,33 @@ The global oil market is highly volatile. Investors, policymakers, and energy co
 6. Event Comparison
 7. Visualization
 8. Final Report
+## Project Data
+
+This project uses two datasets:
+
+### Brent Oil Prices
+
+Location:
+
+data/BrentOilPrices.csv
+
+
+Contains daily Brent crude oil prices from 1987 to 2022.
+
+### Historical Events Dataset
+
+Location:
+data/events.csv
+
+
+Contains 15 major geopolitical, economic, and OPEC-related events used for comparison with detected change points.
+
+Columns:
+
+- Event
+- Start_Date
+- Category
+- Description
 
 ## Author
 
